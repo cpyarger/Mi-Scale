@@ -20,7 +20,7 @@ Platform | Description
 ## Installation
 
 1. Click install.
-1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Blueprint".
+1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Scale".
 
 {% endif %}
 
@@ -32,5 +32,5 @@ Platform | Description
 ***
 
 [hacs]: https://hacs.xyz
-[releases]: https://github.com/custom-components/integration_blueprint/releases
+[releases]: https://github.com/cpyarger/Mi-Scale/releases
 [user_profile]: https://github.com/cpyarger
