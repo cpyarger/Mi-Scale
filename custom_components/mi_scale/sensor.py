@@ -1,15 +1,15 @@
 """Sensor platform for integration_blueprint."""
 from .const import DEFAULT_NAME, DOMAIN, ICON, SENSOR
-from .entity import IntegrationBlueprintEntity
+from .entity import MiScaleEntity
 
 
 async def async_setup_entry(hass, entry, async_add_devices):
     """Setup sensor platform."""
     coordinator = hass.data[DOMAIN][entry.entry_id]
-    async_add_devices([IntegrationBlueprintSensor(coordinator, entry)])
+    async_add_devices([MiScaleSensor(coordinator, entry)])
 
 
-class IntegrationBlueprintSensor(IntegrationBlueprintEntity):
+class MiScaleSensor(MiScaleEntity):
     """integration_blueprint Sensor class."""
 
     @property
