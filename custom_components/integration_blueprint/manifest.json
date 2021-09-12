@@ -1,12 +1,12 @@
 {
   "domain": "integration_blueprint",
-  "name": "Integration blueprint",
-  "documentation": "https://github.com/custom-components/integration_blueprint",
-  "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/custom-components/integration_blueprint/issues",
+  "name": "Xiaomi Mi Scale",
+  "documentation": "https://github.com/cpyarger/Mi-Scale",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/cpyarger/Mi-Scale/issues",
   "version": "0.0.0",
   "config_flow": true,
   "codeowners": [
-    "@ludeeus"
+    "@cpyarger"
   ]
 }
